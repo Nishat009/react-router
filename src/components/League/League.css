@@ -19,6 +19,9 @@
    height: 250px; 
    
 }
+.cardBody{
+    background-color: maroon;
+}
 .card{
     height: 450px;
     width: 600px;
