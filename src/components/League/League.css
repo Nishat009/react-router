@@ -6,7 +6,6 @@
 }
 .leagueStyle
 {
-    border: 1px solid red;
     margin:20px;
     width: 340px;
 }
@@ -18,16 +17,13 @@
 .img-size{
    width:150px;
    height: 250px; 
-   text-align: left;
+   
 }
 .card{
     height: 450px;
     width: 600px;
     background-color: maroon;
   
-}
-.cardBody{
-    background-color: rgba(128, 0, 0, 0.63);
 }
 .button{
     background-color:maroon;
