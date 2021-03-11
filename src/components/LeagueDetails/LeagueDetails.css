@@ -1,0 +1,47 @@
+
+.logo img{
+    text-align: center;
+    height: 35%;
+    width: 40%;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:rgba(128, 0, 0, 0.486);
+}
+
+.teamImage{
+     height: 90%;
+    width:90%;
+}
+.teamDetails{
+    display:flex;
+    width:80%;
+    background-color: maroon;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.details{
+    text-align: justify;
+    width: 80%;
+    margin-top: 15px;
+    color: white;
+}
+.team{
+    width: 45%;
+    margin-left: 20px;
+    color: mintcream;
+    padding-top: 30px;
+}
+.social-icon {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icon a {
+    padding: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+

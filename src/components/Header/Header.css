@@ -1,0 +1,17 @@
+*{margin:0 auto;}
+.header{
+    background-image:url(https://wallpapercave.com/wp/clxYLQV.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    text-align: center;
+    background-size: cover;
+    
+}
+.header1{
+    padding-top: 150px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    
+}
