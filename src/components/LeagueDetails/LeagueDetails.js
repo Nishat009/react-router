@@ -21,7 +21,11 @@ const LeagueDetails = (props) => {
     if("Male"===leagueDetail.strGender){
        image= <img className="w-100" src={Male} alt=""/>
     }
-    if("Female"===leagueDetail.strGender)
+    else if("Female"===leagueDetail.strGender)
+    {
+        image= <img className="w-100" src= {Female} alt=""/>
+    }
+    else if("Mixed"===leagueDetail.strGender)
     {
         image= <img className="w-100" src= {Female} alt=""/>
     }

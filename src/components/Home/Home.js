@@ -4,7 +4,7 @@ import League from '../League/League';
 
 const Home = () => {
     const [league, setLeague]= useState([]);
-    const allLeagues=league.slice(0,15);
+    const allLeagues=league.slice(0,27);
     useEffect(()=>{
         const url =`https://www.thesportsdb.com/api/v1/json/1/all_leagues.php`
         fetch(url)
