@@ -13,6 +13,8 @@ const League = (props) => {
         .then(res=>res.json())
         .then(data=>setLeagueLogo(data.leagues[0]))
     },[idLeague])
+
+   
     const history=useHistory();
     const handleClick =(idLeague) =>{
         const url=`LeagueDetails/${idLeague}`;
